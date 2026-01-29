@@ -1,13 +1,15 @@
 const Hero = () => {
 	return (
 		<section className='relative h-screen overflow-hidden bg-black'>
-			<div className='absolute top-18 bottom-0 flex items-center justify-center z-0'>
-				<img
-					src='/img/hero.jpg'
-					alt='Hero'
-					className='w-full h-full object-cover opacity-90'
-				/>
-				<div className='absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80' />
+			<div className='absolute inset-0 flex items-center justify-center z-0 p-4 md:p-0'>
+				<div className='relative w-full h-full flex items-center justify-center'>
+					<img
+						src='/img/hero.jpg'
+						alt='Hero'
+						className='w-full h-full object-contain opacity-90 mt-48'
+					/>
+					<div className='absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80' />
+				</div>
 			</div>
 
 			<div className='absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce'>
