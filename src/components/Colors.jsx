@@ -42,7 +42,7 @@ const Colors = () => {
 	const [selectedColor, setSelectedColor] = useState('blue');
 
 	return (
-		<section id='colors' className='bg-black py-20 px-8'>
+		<section id='cores' className='bg-black py-20 px-8'>
 			<div className='max-w-7xl mx-auto'>
 				<div className='text-center mb-16'>
 					<h2 className='text-5xl mb:text-6xl font-bold mb-4'>
